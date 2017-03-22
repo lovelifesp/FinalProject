@@ -3,15 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Final Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Rock+Salt" rel="stylesheet">
+
   </head>
   <body ng-app ="shopMod">
+<header>
+<p>Shop </p><p class="header">Detroit</p>
+</header>
 
-  <div>
+
     <nav>
       <a href ="#/">Shop Detroit</a>
       <a href ="#/viewTwo"> More Stores</a>
     </nav>
 
+
+
+  <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -21,6 +30,7 @@
 
 
   </div>
+
   <ng-view></ng-view>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -30,12 +40,13 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYLpeijUUoO75nxw_CRKfEMzFGuTendgE&libraries=places"
  type="text/javascript"></script>
 
-<script src="css/style.css"></script>
+
 <script src="module/module.js"></script>
 <script src="controller/landingCtrl.js"></script>
 <script src="controller/viewTwoCtrl.js"></script>
 <script src="controller/viewThreeCtrl.js"></script>
 <script src="service/shopFactory.js"></script>
 
+<footer>Made by &copy Shana Parker </footer>
   </body>
 </html>

@@ -5,10 +5,10 @@
 <input type="text" ng-model= "searchParams"/></input>
 <button type="button" ng-click ="userSearch(searchParams)">button</button>
 
-<div ng-repeat = "store in storeInfo">
-<p>{{store.name}}</p>
-<p>{{store.opening_hours.open_now}}</p>
-<p>{{store.vicinity}}</p>
+<div>
+<p ng-repeat = "store in storeInfo">{{store.name}} <br> {{store.opening_hours.open_now}} <br> {{store.vicinity}}</p>
+<!-- <p>{{store.opening_hours.open_now}}</p>
+<p>{{store.vicinity}}</p> -->
 
 
 

@@ -1,0 +1,30 @@
+body{
+  background-image: url("http://www.cityphotosandbooks.com/wp-content/uploads/2016/04/Woodward-Sky-View-Rod_Arroyo.jpg");
+  background-repeat:no-repeat;
+
+  text-align: center;
+  font-family: 'Cinzel', serif;
+
+}
+
+
+
+header p{
+  height: 50px;
+  font-family: 'Cinzel', serif;
+
+}
+
+.header{
+  font-family: 'Rock Salt', cursive;
+
+}
+
+footer{
+    height: 30px;
+  }
+
+div{
+  background-color: rgba(246, 246, 243, 0.75);
+
+}
