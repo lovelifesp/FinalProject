@@ -8,28 +8,24 @@
 
   </head>
   <body ng-app ="shopMod">
+
 <header>
-<p>Shop </p><p class="header">Detroit</p>
+  Shop <span class="header">Detroit</span>
+
+  <nav>
+    <a href ="#/">Shop Detroit</a>
+    <a href ="#/viewTwo"> More Stores</a>
+  </nav>
+
+
 </header>
 
 
-    <nav>
-      <a href ="#/">Shop Detroit</a>
-      <a href ="#/viewTwo"> More Stores</a>
-    </nav>
 
 
 
-  <div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
 
 
-
-  </div>
 
   <ng-view></ng-view>
 
@@ -47,6 +43,6 @@
 <script src="controller/viewThreeCtrl.js"></script>
 <script src="service/shopFactory.js"></script>
 
-<footer>Made by &copy Shana Parker </footer>
+<footer>Made by &copy  <a href= "https://github.com/lovelifesp" target="_blank">Shana Parker</a> </footer>
   </body>
 </html>
