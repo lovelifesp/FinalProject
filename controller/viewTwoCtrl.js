@@ -35,16 +35,16 @@ app.controller("viewTwoCtrl", function($scope, $http){
        })
      });
 
-     service.nearbySearch({
-       location: detroit,
-       radius: 500,
-       type: ['clothing_store']
-     },function callback(results, status) {
-       $scope.$apply(function(){
-         $scope.storeInfo = results;
-       });
-       console.log("nearbySearch results:", results);
-     });
+    //  service.nearbySearch({
+    //    location: detroit,
+    //    radius: 500,
+    //    type: ['clothing_store']
+    //  },function callback(results, status) {
+    //    $scope.$apply(function(){
+    //      $scope.storeInfo = results;
+    //    });
+    //    console.log("nearbySearch results:", results);
+    //  });
 
 
 
