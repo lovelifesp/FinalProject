@@ -52,27 +52,22 @@ app.controller("landingCtrl", function($scope, $http){
 
 
 
+    function createPhotoMarker(place) {
+      var photos = place.photos;
+      if (!photos) {
+        return;
+      }
 
-    // 
-    // function createPhotoMarker(place) {
-    //   var photos = place.photos;
-    //   if (!photos) {
-    //     return;
-    //   }
-    //
-    //   var marker = new google.maps.Marker({
-    //     map: map,
-    //     position: place.geometry.location,
-    //     title: place.name,
-    //     icon: photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35})
-    //   });
-    //
-    //
+      var marker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location,
+        title: place.name,
+        icon: photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35})
 
 
+      });
 
-
-
+    }
 
 
 

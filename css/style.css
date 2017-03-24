@@ -9,7 +9,10 @@ body{
   font-size:23px;
 
 }
-
+nav, a{
+  text-decoration: none;
+  letter-spacing: 8px;
+}
 
 header{
   height: 60px;
@@ -37,7 +40,19 @@ footer{
 
 .storeHours{
   font-family: 'Rock Salt', cursive;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
+  font-size: 17px;
+}
+
+.scroll{
+  margin: auto;
+  width: 950px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 200px;
+  padding: 30px;
+  overflow-y: scroll;
+
 }
 
 #map{
@@ -52,8 +67,7 @@ footer{
 h3{
   font-family: 'Cinzel', serif;
   font-weight: 300;
-  letter-spacing: 10px;
-
+  letter-spacing: 12px;
 }
 
 button{
@@ -70,12 +84,15 @@ div{
   /*background-color: rgba(246, 246, 243, 0.87);*/
   border: double 10px black;
   color:white;
-  margin: auto;
   padding:30px;
+  width: 950px;
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
 
 }
+
+
 
 a:link {
     color: white;
@@ -88,10 +105,13 @@ a:visited {
 
 
 a:hover {
-    color: yellow;
+  text-decoration:underline;
+  background-color:rgba(249, 249, 249, 0.96);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
 a:active {
-    color: GreenYellow;
+    color: Yellow;
 }

@@ -9,15 +9,16 @@
 </div>
 
 
-<input type="text" ng-model= "searchParams"/></input>
-<button type="button" ng-click ="userSearch(searchParams)">Shop It</button>
+<input type="text"  ng-model= "searchParams" /></input>
+<button type="button"  ng-click ="userSearch(searchParams)">Shop It</button>
 
 
-<div>
-<p ng-repeat = "store in storeInfo" >{{store.name}}<br>
+<div class="scroll">
+
+  <p ng-repeat = "store in storeInfo">{{store.name}}<br>
   <span class ="storeHours" ng-if="store.opening_hours.open_now === true">Open Now</span>
   <span class ="storeHours" ng-if="store.opening_hours.open_now === false">Now Closed</span><br>
-  {{store.vicinity}} {{store.formatted_address}}</p>
+  {{store.vicinity}} {{store.formatted_address}} <br> <br> <br></p>
 
 </div>
 
