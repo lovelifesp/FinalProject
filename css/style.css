@@ -74,9 +74,25 @@ button{
   background-color:rgba(5, 5, 4, 0.77);
   color:white;
   font-family: 'Cinzel', serif;
+  font-size: 16px;
+  font-weight: 450;
+
   border: double 5px black;
+  height: 35px;
+  /*width: 70px;*/
 }
 
+input{
+  background-color:rgba(249, 249, 249, 0.86);
+  /*color:white;*/
+  border: double 5px black;
+  height: 25px;
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: 550px;
+  text-align: center;
+  /*width: 70px;*/
+}
 
 
 div{
